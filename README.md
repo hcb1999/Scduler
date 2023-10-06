@@ -1,7 +1,8 @@
 <div align=center>
 제로베이스 개인프로젝트
+    <br/>
 일정관리를 수월하게 하고 친구와 공유할 수 있는 웹 서비스
-# **Scheduler**
+
 
 <img src="https://capsule-render.vercel.app/api?type=shark&color=auto&height=300&section=header&text=Scheduler%20&fontSize=90" />
 <br/><br/>
