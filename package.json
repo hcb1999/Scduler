@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.0.8",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^1.0.0"
+  },
+  "scripts": {
+    "client": "cd blog && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
