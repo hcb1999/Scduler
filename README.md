@@ -1,5 +1,5 @@
 <div align=center>
-
+제로베이스 개인프로젝트
 일정관리를 수월하게 하고 친구와 공유할 수 있는 웹 서비스
 # **Scheduler**
 
@@ -9,58 +9,22 @@
 
 mysql를 통해 로그인기능과 실시간 데이터베이스 기능을 구현하였습니다.
 
-
-테스트 id : 3 <br />
-테스트 pw : 3
-
-
 <br /><hr />
 </div>
 
-## 🔍 미리보기
-### 로그인 회원가입페이지
-
-- 로그인, 회원가입 기능
-
-<img width="600" alt="로그인" src="https://github.com/hcb1999/Secondtimescduler/assets/79968715/74d12a94-ee3d-4ed3-8288-8d3ede937788">
-
-<img width="600" alt="회원가입" src="https://github.com/hcb1999/Secondtimescduler/assets/79968715/0e9db585-5008-45c1-9c22-a8ae794c01a6">
-
-
-
-### Home 페이지
-- 일정 생성 기능
-- 일정 월,주,일로 보기 기능
-- 일정 CRUD 기능
-
-![일정추가](https://github.com/hcb1999/Secondtimescduler/assets/79968715/e53d84b2-b271-409a-b802-887afd61404b)
-![일정삭제](https://github.com/hcb1999/Secondtimescduler/assets/79968715/be43820a-8667-4cc4-b4ed-87c1834e6b15)
-
-
-
-
-### 친구 추가 기능
-- 아이디 검색 / 친구 등록
-
-![친구추가](https://github.com/hcb1999/Secondtimescduler/assets/79968715/12d9c6d6-8d83-40d4-be43-914d89ec538a)
-
-
-### to do list 와 today 기능.
-- 할일 리스트 추가와 today버튼 누르면 오늘 날짜로 돌아오기 기능.
-
-![todlist](https://github.com/hcb1999/Secondtimescduler/assets/79968715/98ec64da-e640-4175-a5ca-7c1bb0a65fa4)
-
-
 ## 🕑 작업기간
-2022.06 - 2022.08 (약 2개월)
+2023.09 - 2022.10 (1개월)
 
-## 🔧 설치 방법
-```
-cd TimeScdule
-npm install
-yarn add @material-ui/pickers
-yarn dev
-```
+## 📌 기능 소개
+### 주요 기능
+|기능|내용|
+|--|------|
+|**일정 생성 기능**|시간과 장소 동석자를 정하여 일정을 생성하는 기능.|
+|**친구 추가기능**|친구 아이디를 찾아 추가하는 기능 |
+|**그룹 추가 및 초대기능**|그룹을 추가및 초대하는 기능 |
+|**그룹별로 일정 생성 기능**|해당 그룹에 맞는 일정만을 생성및 표시 |
+|**메일 알람 기능**|친구 추가하거나 그룹 초대를 하엿을때 나오는 알림 메시지 표시 |
+|**카테고리 필터 기능**|카테고리를 추가해 그에 맞는 카테고리 별 일정 표시 |
 
 ## 🛠 기술 스택
 <div align=left>
@@ -70,29 +34,10 @@ yarn dev
     <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
 </div><br />
 
-## 📌 기능 소개
-### 주요 기능
-|기능|내용|
-|--|------|
-|**일정 생성 기능**|시간과 장소 동석자를 정하여 일정을 생성하는 기능.|
-|**친구 추가기능**|친구 아이디를 찾아 추가하는 능 |
-|**to do list와 today 기능**|할일과 달력을 오늘 날짜로 돌아올 수능있는 기능|
-
-### 상세 기능
-- 로그인, 로그아웃 및 회원가입
-- 생성한 일정 CRUD (Create, Read, Update, Delete)
-- 생성한 일정을 일,주,월로 볼 수 있는 기능
-
-
-
-## 📚 느낀 점
-- 기획단계에서 ERD와 기능명세서를 자세하게 쓰면 쓸수록 좋다는 것을 배움.
-- javascript를 사용하여 일일이 요소를 지정해 이벤트를 지정해주는것보다 훨씬 편하다는 것을 배움.
-
 
 ## ✏ 개선사항
 
-- 회원 탈퇴 기능 개발 필요
-- css가 전반적으로 아쉬움
-- 주 n회, 월 n회 등 다회성 과제에 대한 todo 로직 개발 필요
+- 회원 탈퇴 기능 개발 필요 
+- mui 라이브러리가 가끔 꺠지는 현상이 나타나는데 이에 적절한 조치가 필요함
+- 전반적인 코드 통일화 및 개선이 필요
 
