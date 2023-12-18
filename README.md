@@ -22,8 +22,11 @@
 
 ![일정 상세보기 및 삭제](https://github.com/hcb1999/Secondtimescduler/assets/79966891/ab5d43c7-045a-4d02-a0fd-e1f0536bf78f)
 
+### 일정 카테고리 추가 및 필터
 
+- 일정에 대한 카테고리를 설정하고 해당 카테고리에 맞는 일정만 표시할 수 있어요
 
+![카테고리 필터링](https://github.com/hcb1999/Secondtimescduler/assets/79966891/f2acd478-42e5-4880-a938-48271a44c989)
 
 ### 친구 추가 기능
 - 아이디를 검색하여 친구를 추가할수있습니다.
